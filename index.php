@@ -62,8 +62,9 @@
         <div class="l-inner">
             <h2 class="sec-title">私たちについて</h2>
             <p class="sec-lead">治すだけで終わらない。経験を、人生に変える仕事。</p>
-            <div class="about__photo" aria-hidden="true"></div>
-            <img class="about__photo" src="img/staff_04.jpg" alt="" aria-hidden="true">
+            <div class="about__photo-cover">
+                <img class="about__photo" src="img/staff_04.jpg" alt="" aria-hidden="true">
+            </div>
             <div class="about__cards">
                 <article class="card">
                     <p class="card__num">01</p>
