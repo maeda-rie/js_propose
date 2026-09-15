@@ -49,13 +49,19 @@
     </header>
 
     <section class="fv">
-        <div class="fv__copy">
-            <p class="fv__eyebrow">経験者の整体師へ</p>
-            <h1 class="fv__title">関わった人の人生に<br>変化をもたらす施術をしたい。</h1>
-            <p class="fv__lead">一人ひとりの「治したい」に、向き合える環境です。</p>
-            <a href="#day" class="btn btn--ghost">1日の流れを見る</a>
+        <div class="fv_inner">            
+            <div class="fv__copy">
+                <p class="fv__eyebrow">経験者の整体師へ</p>
+                <h1 class="fv__title">関わった人の人生に<br>変化をもたらす施術をしたい。</h1>
+                <p class="fv__lead">一人ひとりの「治したい」に、向き合える環境です。</p>
+                <a href="#day" class="btn btn--ghost">1日の流れを見る</a>
+            </div>
+            <div class="fv__photo">
+                <div class="fv__photo-inner" aria-hidden="true">
+                    <img src="img/staff_05.jpg" alt="">
+                </div>
+            </div>
         </div>
-        <div class="fv__photo" aria-hidden="true"></div>
     </section>
 
     <section class="about" id="about">

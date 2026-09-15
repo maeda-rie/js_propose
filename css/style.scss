@@ -288,7 +288,7 @@ img {
   display: flex;
   align-items: stretch;
   min-height: 560px;
-  background: var(--c-mist);
+  // background: var(--c-mist);
 
   @include mq(tab) {
     flex-direction: column-reverse;
@@ -353,8 +353,8 @@ img {
 
 .fv__photo {
   width: 50%;
-  min-height: 560px;
-  background: var(--c-ph-fv);
+  // min-height: 560px;
+  // background: var(--c-ph-fv);
 
   @include mq(tab) {
     width: 100%;
