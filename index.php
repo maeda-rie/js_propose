@@ -345,10 +345,9 @@
             });
         });
 
-        $('.locations__stores li').css("display","none")
-
         const areas = document.querySelectorAll('.locations__select ul li'); 
         const places = document.querySelectorAll('.locations__stores li');
+        // places.style.display = 'none';
         document.querySelectorAll('.locations__stores li').style.display = 'none';
 
         areas.forEach(area => {
