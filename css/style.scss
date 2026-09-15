@@ -497,9 +497,16 @@ img {
 
 .icon_inner {
   aspect-ratio: 1 / 1;
-  width: 440%;
   height: auto;
   // overflow: hidden;
+}
+
+.voice__photo--01 .icon_inner {
+  width: 440%;
+}
+
+.voice__photo--02 .icon_inner {
+  width: 250%;
 }
 
 .icon_inner img {
@@ -512,7 +519,7 @@ img {
 }
 
 .voice__photo--02 img {
-  object-position: -7rem -5rem;
+  object-position: -8rem center;
 }
 
 .voice__tag {
