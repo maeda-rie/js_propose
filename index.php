@@ -430,7 +430,7 @@
 
         tabs.forEach(area => {
             tab.addEventListener("click", function() {
-                target = tab.dataset.select;
+                const target = tab.dataset.select;
 
                 forms.forEach(form => {
                     if (forms.dataset.form === target) {
