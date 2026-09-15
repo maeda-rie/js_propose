@@ -108,7 +108,11 @@
                 </article>
                 <article class="voice">
                     <div class="voice__meta">
-                        <div class="voice__photo voice__photo--02" aria-hidden="true"></div>
+                        <div class="voice__photo voice__photo--02" aria-hidden="true">
+                            <div class="icon_inner">
+                                <img src="img/staff_03.jpg" alt="">
+                            </div>
+                        </div>
                         <div>
                             <p class="voice__tag">未経験入社</p>
                             <p class="voice__name">K・Yさん</p>

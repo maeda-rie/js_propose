@@ -489,22 +489,29 @@ img {
   // width: 64px;
   // height: 64px;
   // border-radius: 64px;
+  overflow: hidden;
   width: 70px;
   height: 70px;
   border-radius: 70px;
-  flex-shrink: 0;
 }
 
 .icon_inner {
   aspect-ratio: 1 / 1;
   width: 440%;
-  height: 70px;
-  overflow: hidden;
+  height: auto;
+  // overflow: hidden;
 }
 
 .icon_inner img {
   width: 100%;
   object-fit: cover;
+}
+
+.voice__photo--01 img {
+  object-position: -7rem -5rem;
+}
+
+.voice__photo--02 img {
   object-position: -7rem -5rem;
 }
 
