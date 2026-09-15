@@ -350,11 +350,12 @@
         // places.style.display = 'none';
         // document.querySelectorAll('.locations__stores li').style.display = 'none';
 
+        places.forEach(place => {
+            place.style.display = 'none';
+        });
         areas.forEach(area => {
             area.addEventListener("click", function() {
-                places.forEach(place => {
-                    place.style.display = 'none';
-                });
+
                 console.log('クリックされた');
                 const target = area.dataset.area;
 
