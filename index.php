@@ -348,7 +348,7 @@
         const areas = document.querySelectorAll('.locations__select ul li'); 
         const places = document.querySelectorAll('.locations__stores li');
         // places.style.display = 'none';
-        document.querySelectorAll('.locations__stores li').style.display = 'none';
+        // document.querySelectorAll('.locations__stores li').style.display = 'none';
 
         areas.forEach(area => {
             area.addEventListener("click", function() {
@@ -356,6 +356,7 @@
                 const target = area.dataset.area;
 
                 places.forEach(place => {
+                    place.style.display = 'none';
                     if (place.dataset.place === target) {
                         place.style.display = 'block'; // 一致する場合は表示
                     } else {
