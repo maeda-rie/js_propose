@@ -49,7 +49,7 @@
     </header>
 
     <section class="fv">
-        <div class="fv_inner">            
+        <div class="fv_inner">     
             <div class="fv__copy">
                 <p class="fv__eyebrow">経験者の整体師へ</p>
                 <h1 class="fv__title">関わった人の人生に<br>変化をもたらす施術をしたい。</h1>
