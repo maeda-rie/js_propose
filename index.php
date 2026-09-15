@@ -352,11 +352,13 @@
 
         areas.forEach(area => {
             area.addEventListener("click", function() {
+                places.forEach(place => {
+                    place.style.display = 'none';
+                });
                 console.log('クリックされた');
                 const target = area.dataset.area;
 
                 places.forEach(place => {
-                    place.style.display = 'none';
                     if (place.dataset.place === target) {
                         place.style.display = 'block'; // 一致する場合は表示
                     } else {
