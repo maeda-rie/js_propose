@@ -324,7 +324,7 @@
                     <button type="button" class="btn btn--solid">この内容で応募する</button>
                 </form>
                 <!-- 院内見学 -->
-                <form class="form" action="#" method="get" data-form="visit">
+                <form class="form" action="#" method="get" data-form="visit" style="display: none;">
                     <div class="form__row">
                         <label class="form__field">
                             <span>お名前</span>
@@ -427,21 +427,19 @@
         // 求人フォーム
         const tabs = document.querySelectorAll('.apply__tab');
         const forms = document.querySelectorAll('.form');
-        const active = document.querySelector('.is-active'); // 最初の1個だけ取得(指定したクラスが1つしかない場合はこっち)
 
         tabs.forEach(tab => {
             tab.addEventListener("click", function() {
                 const target = tab.dataset.select;
-                
-                active.classList.toggle('is-active');
+
+                tabs.forEach(t => t.classList.remove('is-active'));
+                tab.classList.add('is-active');
 
                 forms.forEach(form => {
                     if (form.dataset.form === target) {
                         form.style.display = 'block';
-                        // tab.classList.add('is-active');
                     } else {
                         form.style.display = 'none';
-                        // tab.classList.remove('is-active');
                     }
                 });
             });
