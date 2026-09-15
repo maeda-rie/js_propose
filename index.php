@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css?version=<?php echo time();?>">
+    <link rel="stylesheet" href="css/style.css?version=<?php echo time(); ?>">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
@@ -92,11 +92,15 @@
             <div class="voices__list">
                 <article class="voice">
                     <div class="voice__meta">
-                        <div class="voice__photo voice__photo--a" aria-hidden="true"></div>
+                        <div class="voice__photo voice__photo--01" aria-hidden="true">
+                            <div class="icon_inner">
+                                <img src="img/staff_02.jpg" alt="">
+                            </div>
+                        </div>
                         <div>
                             <p class="voice__tag">経験者入社</p>
                             <p class="voice__name">A・Sさん</p>
-                            <p class="voice__role">施術家</p>
+                            <p class="voice__role">施術者</p>
                         </div>
                     </div>
                     <h3 class="voice__title">「治したい」に向き合える環境</h3>
@@ -104,7 +108,7 @@
                 </article>
                 <article class="voice">
                     <div class="voice__meta">
-                        <div class="voice__photo voice__photo--k" aria-hidden="true"></div>
+                        <div class="voice__photo voice__photo--02" aria-hidden="true"></div>
                         <div>
                             <p class="voice__tag">未経験入社</p>
                             <p class="voice__name">K・Yさん</p>
@@ -289,12 +293,12 @@
     </footer>
 
     <script>
-        $(function () {
-            $('.header__menu').on('click', function () {
+        $(function() {
+            $('.header__menu').on('click', function() {
                 $('.header').toggleClass('is-open');
                 $(this).attr('aria-expanded', $('.header').hasClass('is-open'));
             });
-            $('.header__nav a').on('click', function () {
+            $('.header__nav a').on('click', function() {
                 $('.header').removeClass('is-open');
                 $('.header__menu').attr('aria-expanded', 'false');
             });

@@ -491,18 +491,25 @@ img {
 }
 
 .voice__photo {
-  width: 64px;
-  height: 64px;
-  border-radius: 64px;
+  width: 70px;
+  height: 70px;
+  border-radius: 70px;
   flex-shrink: 0;
 }
 
-.voice__photo--a {
-  background: var(--c-ph-voice-a);
+.icon_inner {
+  aspect-ratio: 1/1;
+  width: 440%;
+  height: 70px;
+  overflow: hidden;
 }
 
-.voice__photo--k {
-  background: var(--c-ph-voice-k);
+.icon_inner img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: -7rem -5rem;
+     object-position: -7rem -5rem;
 }
 
 .voice__tag {
