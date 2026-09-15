@@ -411,14 +411,13 @@
         areas.forEach(area => {
             area.addEventListener("click", function() {
 
-                console.log('クリックされた');
                 const target = area.dataset.area;
 
                 places.forEach(place => {
                     if (place.dataset.place === target) {
-                        place.style.display = 'block'; // 一致する場合は表示
+                        place.style.display = 'block';
                     } else {
-                        place.style.display = 'none'; // 一致しない場合は非表示
+                        place.style.display = 'none';
                     }
                 });
             });
