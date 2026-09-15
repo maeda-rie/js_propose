@@ -436,10 +436,10 @@
                 forms.forEach(form => {
                     if (form.dataset.form === target) {
                         form.style.display = 'block';
-                        form.classList.add('is-active');
+                        tab.classList.add('is-active');
                     } else {
                         form.style.display = 'none';
-                        form.classList.remove('is-active');
+                        tab.classList.remove('is-active');
                     }
                 });
             });
