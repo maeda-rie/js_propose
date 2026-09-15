@@ -432,14 +432,16 @@
         tabs.forEach(tab => {
             tab.addEventListener("click", function() {
                 const target = tab.dataset.select;
+                
+                active.classList.toggle('is-active');
 
                 forms.forEach(form => {
                     if (form.dataset.form === target) {
                         form.style.display = 'block';
-                        tab.classList.add('is-active');
+                        // tab.classList.add('is-active');
                     } else {
                         form.style.display = 'none';
-                        tab.classList.remove('is-active');
+                        // tab.classList.remove('is-active');
                     }
                 });
             });
