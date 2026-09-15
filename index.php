@@ -135,10 +135,10 @@
     <section class="day" id="day">
         <div class="l-inner">
             <h2 class="sec-title sec-title--white">1日の流れ</h2>
-            <div class="day__highlight">
+            <!-- <div class="day__highlight">
                 <p class="day__highlight-main">1日に担当する患者様は、最大5名。</p>
                 <p class="day__highlight-sub">一人ひとりのお客様と、密にコミュニケーションが取れます。</p>
-            </div>
+            </div> -->
             <ul class="day__steps">
                 <li class="day__step">
                     <p class="day__time">10:45</p>
@@ -183,6 +183,10 @@
         <div class="l-inner">
             <h2 class="sec-title">福利厚生 / 給与 / 勤務地</h2>
             <p class="sec-lead">数字は隠さない。働き続けられる理由を先に。</p>
+            <div class="day__highlight">
+                <p class="day__highlight-main">1日に担当する患者様は、最大5名。</p>
+                <p class="day__highlight-sub">一人ひとりのお客様と、密にコミュニケーションが取れます。</p>
+            </div>
             <div class="salary">
                 <p class="salary__label">月給</p>
                 <p class="salary__num">254,400円 〜 800,000円</p>
