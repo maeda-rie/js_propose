@@ -49,7 +49,7 @@
     </header>
 
     <section class="fv">
-        <div class="fv_inner">     
+        <div class="fv_inner">
             <div class="fv__copy">
                 <p class="fv__eyebrow">経験者の整体師へ</p>
                 <h1 class="fv__title">関わった人の人生に<br>変化をもたらす施術をしたい。</h1>
@@ -226,24 +226,33 @@
             </ul>
             <div class="locations">
                 <h3 class="locations__title">勤務地</h3>
-                <div class="locations__select">東京都（16店舗）</div>
+                <!-- <div class="locations__select">東京都（16店舗）</div> -->
+                <div class="locations__select">
+                    <ul>
+                        <li data-area="tokyo">東京都（16店舗）</li>
+                        <li data-area="kanagawa">神奈川（7店舗）</li>
+                    </ul>
+                </div>
                 <ul class="locations__stores">
-                    <li>恵比寿代官山院</li>
-                    <li>町田院</li>
-                    <li>新橋・虎ノ門院</li>
-                    <li>赤坂院</li>
-                    <li>上野院</li>
-                    <li>三軒茶屋院</li>
-                    <li>門前仲町院</li>
-                    <li>五反田院</li>
-                    <li>池袋院</li>
-                    <li>新宿院</li>
-                    <li>人形町院</li>
-                    <li>中野院</li>
-                    <li>北千住院</li>
-                    <li>神田院</li>
-                    <li>下北沢院</li>
-                    <li>渋谷院</li>
+                    <li data-place="tokyo">恵比寿代官山院</li>
+                    <li data-place="tokyo">町田院</li>
+                    <li data-place="tokyo">新橋・虎ノ門院</li>
+                    <li data-place="tokyo">赤坂院</li>
+                    <li data-place="tokyo">上野院</li>
+                    <li data-place="tokyo">三軒茶屋院</li>
+                    <li data-place="tokyo">門前仲町院</li>
+                    <li data-place="tokyo">五反田院</li>
+                    <li data-place="tokyo">池袋院</li>
+                    <li data-place="tokyo">新宿院</li>
+                    <li data-place="tokyo">人形町院</li>
+                    <li data-place="tokyo">中野院</li>
+                    <li data-place="tokyo">北千住院</li>
+                    <li data-place="tokyo">神田院</li>
+                    <li data-place="tokyo">下北沢院</li>
+                    <li data-place="tokyo">渋谷院</li>
+
+                    <li data-place="kanagawa">横浜院</li>
+                    <li data-place="kanagawa">川崎院</li>
                 </ul>
                 <p class="locations__note">プルダウンから 神奈川（7）／埼玉（1）／愛知（1）／大阪（2）／北海道（1） も選択できます。</p>
             </div>
@@ -321,6 +330,24 @@
                 $('.header__menu').attr('aria-expanded', 'false');
             });
         });
+
+        const areas = document.querySelectorAll('.locations__select ul li'); // 最初の1個だけ取得(指定したクラスが1つしかない場合はこっち)
+        const places = document.querySelectorAll('.locations__stores li'); // 該当する全てを取得
+
+        areas.forEach(button => {
+            area.addEventListener("click", function() {
+                const target = area.dataset.area;
+
+                places.forEach(place => {
+                    if (place.dataset.place === target) {
+                        place.style.display = 'block'; // 一致する場合は表示
+                    } else {
+                        place.style.display = 'none'; // 一致しない場合は非表示
+                    }
+                });
+            });
+        });
+        
     </script>
 </body>
 
