@@ -870,7 +870,7 @@ img {
   padding: 1rem 1.2rem;
   background: var(--c-mist);
   border-radius: 0.8rem;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .apply {
@@ -891,6 +891,9 @@ img {
   .apply__box {
     padding: 2.4rem 2rem;
   }
+}
+.apply__box button {
+  margin-top: 2rem;
 }
 
 .apply__tabs {
