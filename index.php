@@ -402,6 +402,7 @@
             });
         });
 
+        // 勤務地 エリア選択
         const areas = document.querySelectorAll('.locations__select ul li');
         const places = document.querySelectorAll('.locations__stores li');
 
@@ -423,16 +424,16 @@
             });
         });
 
-
+        // 求人フォーム
         const tabs = document.querySelectorAll('.apply__tab');
         const forms = document.querySelectorAll('.form');
 
         tabs.forEach(tab => {
             tab.addEventListener("click", function() {
                 const target = tab.dataset.select;
-
+ｓ
                 forms.forEach(form => {
-                    if (forms.dataset.form === target) {
+                    if (form.dataset.form === target) {
                         form.style.display = 'block';
                     } else {
                         form.style.display = 'none';
