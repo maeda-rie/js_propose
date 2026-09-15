@@ -427,21 +427,24 @@
         // 求人フォーム
         const tabs = document.querySelectorAll('.apply__tab');
         const forms = document.querySelectorAll('.form');
+        const active = document.querySelector('.is-active'); // 最初の1個だけ取得(指定したクラスが1つしかない場合はこっち)
 
         tabs.forEach(tab => {
             tab.addEventListener("click", function() {
                 const target = tab.dataset.select;
-ｓ
+
                 forms.forEach(form => {
                     if (form.dataset.form === target) {
                         form.style.display = 'block';
+                        form.classList.add('is-active');
                     } else {
                         form.style.display = 'none';
+                        form.classList.remove('is-active');
                     }
                 });
             });
         });
-
     </script>
 </body>
+
 </html>
