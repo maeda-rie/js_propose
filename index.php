@@ -324,7 +324,7 @@
                     <button type="button" class="btn btn--solid">この内容で応募する</button>
                 </form>
                 <!-- 院内見学 -->
-                <form class="form" action="#" method="get" style="display: none;" data-form="visit">
+                <form class="form" action="#" method="get" data-form="visit">
                     <div class="form__row">
                         <label class="form__field">
                             <span>お名前</span>
@@ -427,7 +427,7 @@
         const tabs = document.querySelectorAll('.apply__tab');
         const forms = document.querySelectorAll('.form');
 
-        tabs.forEach(area => {
+        tabs.forEach(tab => {
             tab.addEventListener("click", function() {
                 const target = tab.dataset.select;
 
