@@ -278,10 +278,11 @@
             <div class="apply__box">
                 <h2 class="sec-title">応募・見学</h2>
                 <div class="apply__tabs">
-                    <span class="apply__tab is-active">求人フォーム</span>
-                    <span class="apply__tab">院内見学</span>
+                    <span class="apply__tab is-active" data-select="job">求人フォーム</span>
+                    <span class="apply__tab" data-select="visit">院内見学</span>
                 </div>
-                <form class="form" action="#" method="get">
+                <!-- 求人応募 -->
+                <form class="form" action="#" method="get" data-form="job">
                     <div class="form__row">
                         <label class="form__field">
                             <span>お名前</span>
@@ -322,7 +323,8 @@
                     </label>
                     <button type="button" class="btn btn--solid">この内容で応募する</button>
                 </form>
-                <form class="form" action="#" method="get">
+                <!-- 院内見学 -->
+                <form class="form" action="#" method="get" style="display: none;" data-form="visit">
                     <div class="form__row">
                         <label class="form__field">
                             <span>お名前</span>
@@ -400,9 +402,9 @@
             });
         });
 
-        const areas = document.querySelectorAll('.locations__select ul li'); 
+        const areas = document.querySelectorAll('.locations__select ul li');
         const places = document.querySelectorAll('.locations__stores li');
-        
+
         places.forEach(place => {
             place.style.display = 'none';
         });
@@ -422,7 +424,24 @@
             });
         });
 
+
+        const tabs = document.querySelectorAll('.apply__tab');
+        const forms = document.querySelectorAll('.form');
+
+        tabs.forEach(area => {
+            tab.addEventListener("click", function() {
+                target = tab.dataset.select;
+
+                forms.forEach(form => {
+                    if (forms.dataset.form === target) {
+                        form.style.display = 'block';
+                    } else {
+                        form.style.display = 'none';
+                    }
+                });
+            });
+        });
+
     </script>
 </body>
-
 </html>
