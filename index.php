@@ -139,10 +139,6 @@
     <section class="day" id="day">
         <div class="l-inner">
             <h2 class="sec-title sec-title--white">1日の流れ</h2>
-            <!-- <div class="day__highlight">
-                <p class="day__highlight-main">1日に担当する患者様は、最大5名。</p>
-                <p class="day__highlight-sub">一人ひとりのお客様と、密にコミュニケーションが取れます。</p>
-            </div> -->
             <ul class="day__steps">
                 <li class="day__step">
                     <p class="day__time">10:45</p>
@@ -187,10 +183,6 @@
         <div class="l-inner">
             <h2 class="sec-title">福利厚生 / 給与 / 勤務地</h2>
             <p class="sec-lead">数字は隠さない。働き続けられる理由を先に。</p>
-            <div class="day__highlight">
-                <p class="day__highlight-main">1日に担当する患者様は、最大5名。</p>
-                <p class="day__highlight-sub">一人ひとりのお客様と、密にコミュニケーションが取れます。</p>
-            </div>
             <div class="salary">
                 <p class="salary__label">月給</p>
                 <p class="salary__num">254,400円 〜 800,000円</p>
@@ -226,15 +218,15 @@
             </ul>
             <div class="locations">
                 <h3 class="locations__title">勤務地</h3>
-                <!-- <div class="locations__select">東京都（16店舗）</div> -->
+                <p>関東を中心に全国に27店舗展開しております。</p>
                 <div class="locations__select">
                     <ul>
-                        <li data-area="tokyo">東京都（16店舗）</li>
+                        <li data-area="tokyo">東京（16店舗）</li>
                         <li data-area="kanagawa">神奈川（6店舗）</li>
-                        <li data-area="kanagawa">埼玉（1店舗）</li>
-                        <li data-area="kanagawa">愛知（1店舗）</li>
-                        <li data-area="kanagawa">大阪（2店舗）</li>
-                        <li data-area="kanagawa">北海道（1店舗）</li>
+                        <li data-area="saitama">埼玉（1店舗）</li>
+                        <li data-area="aichi">愛知（1店舗）</li>
+                        <li data-area="osaka">大阪（2店舗）</li>
+                        <li data-area="hokkaidou">北海道（1店舗）</li>
                     </ul>
                 </div>
                 <ul class="locations__stores">
@@ -277,7 +269,6 @@
                     <!-- 北海道 -->
                     <li data-place="hokkaidou">札幌院</li>
                 </ul>
-                <p class="locations__note">プルダウンから 神奈川（6）／埼玉（1）／愛知（1）／大阪（2）／北海道（1） も選択できます。</p>
             </div>
         </div>
     </section>
