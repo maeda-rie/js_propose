@@ -230,10 +230,15 @@
                 <div class="locations__select">
                     <ul>
                         <li data-area="tokyo">東京都（16店舗）</li>
-                        <li data-area="kanagawa">神奈川（7店舗）</li>
+                        <li data-area="kanagawa">神奈川（6店舗）</li>
+                        <li data-area="kanagawa">埼玉（1店舗）</li>
+                        <li data-area="kanagawa">愛知（1店舗）</li>
+                        <li data-area="kanagawa">大阪（2店舗）</li>
+                        <li data-area="kanagawa">北海道（1店舗）</li>
                     </ul>
                 </div>
                 <ul class="locations__stores">
+                    <!-- 東京 -->
                     <li data-place="tokyo">恵比寿代官山院</li>
                     <li data-place="tokyo">町田院</li>
                     <li data-place="tokyo">新橋・虎ノ門院</li>
@@ -251,10 +256,28 @@
                     <li data-place="tokyo">下北沢院</li>
                     <li data-place="tokyo">渋谷院</li>
 
-                    <li data-place="kanagawa">横浜院</li>
+                    <!-- 神奈川 -->
                     <li data-place="kanagawa">川崎院</li>
+                    <li data-place="kanagawa">武蔵小杉院</li>
+                    <li data-place="kanagawa">横浜院 （本院）</li>
+                    <li data-place="kanagawa">海老名院</li>
+                    <li data-place="kanagawa">藤沢院</li>
+                    <li data-place="kanagawa">平塚院</li>
+
+                    <!-- 埼玉 -->
+                    <li data-place="saitama">川口院</li>
+
+                    <!-- 愛知 -->
+                    <li data-place="aichi">栄院</li>
+
+                    <!-- 大阪 -->
+                    <li data-place="osaka">西梅田院</li>
+                    <li data-place="osaka">難波院</li>
+
+                    <!-- 北海道 -->
+                    <li data-place="hokkaidou">札幌院</li>
                 </ul>
-                <p class="locations__note">プルダウンから 神奈川（7）／埼玉（1）／愛知（1）／大阪（2）／北海道（1） も選択できます。</p>
+                <p class="locations__note">プルダウンから 神奈川（6）／埼玉（1）／愛知（1）／大阪（2）／北海道（1） も選択できます。</p>
             </div>
         </div>
     </section>
