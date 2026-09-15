@@ -335,7 +335,8 @@
         const places = document.querySelectorAll('.locations__stores li'); // 該当する全てを取得
 
         areas.forEach(button => {
-            area.addEventListener("click", function() {
+            areas.addEventListener("click", function() {
+                console.log('クリックされた');
                 const target = area.dataset.area;
 
                 places.forEach(place => {
@@ -347,7 +348,7 @@
                 });
             });
         });
-        
+
     </script>
 </body>
 

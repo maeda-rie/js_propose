@@ -296,10 +296,10 @@ img {
   overflow: hidden;
   // background: var(--c-mist);
 
-  // @include mq(tab) {
-  //   flex-direction: column-reverse;
-  //   min-height: 0;
-  // }
+  @include mq(tab) {
+    max-width: none;
+    margin-left: 0;
+  }
 }
 
 .fv_inner {
@@ -311,12 +311,9 @@ img {
   height: 560px;
 
   @include mq(tab) {
+    flex-direction: column-reverse;
     width: 100%;
-    padding: 40px 32px 56px;
-  }
-
-  @include mq(sp) {
-    padding: 32px 20px 48px;
+    height: auto;
   }
 }
 
@@ -380,11 +377,6 @@ img {
 
   @include mq(tab) {
     width: 100%;
-    min-height: 280px;
-  }
-
-  @include mq(sp) {
-    min-height: 220px;
   }
 }
 
@@ -393,12 +385,27 @@ img {
   width: auto;
   height: 560px;
   overflow: hidden;
+
+  @include mq(tab) {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+
+  @include mq(sp) {
+    aspect-ratio: 2 / 1;
+  }
 }
 
 .fv__photo-inner img {
   width: 100%;
   object-fit: cover;
   object-position: -120px -110px;
+
+  @include mq(tab) {
+    height: 100%;
+    object-position: center;
+  }
 }
 
 .about {
@@ -417,6 +424,14 @@ img {
   overflow: hidden;
   object-position: bottom;
   border-radius: var(--radius-lg);
+
+  @include mq(tab) {
+    height: auto;
+  }
+
+  @include mq(sp) {
+    aspect-ratio: 16 / 9;
+  }
 }
 
 .about__photo {
@@ -428,10 +443,13 @@ img {
   // border-radius: var(--radius-lg);
   // background: var(--c-ph-about);
 
-  // @include mq(sp) {
-  //   height: 200px;
-  //   margin-top: 20px;
-  // }
+  @include mq(tab) {
+    height: 100%;
+  }
+
+  @include mq(sp) {
+    object-position: center 40%;
+  }
 }
 
 .about__cards {
@@ -501,7 +519,7 @@ img {
   gap: 16px;
   margin-top: 24px;
 
-  @include mq(sp) {
+  @include mq(tab) {
     flex-direction: column;
   }
 }
@@ -805,6 +823,11 @@ img {
   font-size: 1.4rem;
   font-weight: 500;
   color: var(--c-navy-deep);
+}
+
+.locations__select li,
+.locations__stores li {
+  cursor: pointer;
 }
 
 .locations__stores {

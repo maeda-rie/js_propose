@@ -286,6 +286,12 @@ img {
   margin-left: auto;
   overflow: hidden;
 }
+@media (max-width: 1200px) {
+  .fv {
+    max-width: none;
+    margin-left: 0;
+  }
+}
 
 .fv_inner {
   display: flex;
@@ -295,13 +301,9 @@ img {
 }
 @media (max-width: 1200px) {
   .fv_inner {
+    flex-direction: column-reverse;
     width: 100%;
-    padding: 40px 32px 56px;
-  }
-}
-@media (max-width: 750px) {
-  .fv_inner {
-    padding: 32px 20px 48px;
+    height: auto;
   }
 }
 
@@ -368,12 +370,6 @@ img {
 @media (max-width: 1200px) {
   .fv__photo {
     width: 100%;
-    min-height: 280px;
-  }
-}
-@media (max-width: 750px) {
-  .fv__photo {
-    min-height: 220px;
   }
 }
 
@@ -383,6 +379,18 @@ img {
   height: 560px;
   overflow: hidden;
 }
+@media (max-width: 1200px) {
+  .fv__photo-inner {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+  }
+}
+@media (max-width: 750px) {
+  .fv__photo-inner {
+    aspect-ratio: 2/1;
+  }
+}
 
 .fv__photo-inner img {
   width: 100%;
@@ -390,6 +398,13 @@ img {
      object-fit: cover;
   -o-object-position: -120px -110px;
      object-position: -120px -110px;
+}
+@media (max-width: 1200px) {
+  .fv__photo-inner img {
+    height: 100%;
+    -o-object-position: center;
+       object-position: center;
+  }
 }
 
 .about {
@@ -411,6 +426,16 @@ img {
      object-position: bottom;
   border-radius: var(--radius-lg);
 }
+@media (max-width: 1200px) {
+  .about__photo-cover {
+    height: auto;
+  }
+}
+@media (max-width: 750px) {
+  .about__photo-cover {
+    aspect-ratio: 16/9;
+  }
+}
 
 .about__photo {
   width: 100%;
@@ -419,6 +444,17 @@ img {
      object-fit: cover;
   -o-object-position: center -16rem;
      object-position: center -16rem;
+}
+@media (max-width: 1200px) {
+  .about__photo {
+    height: 100%;
+  }
+}
+@media (max-width: 750px) {
+  .about__photo {
+    -o-object-position: center 40%;
+       object-position: center 40%;
+  }
 }
 
 .about__cards {
@@ -491,7 +527,7 @@ img {
   gap: 16px;
   margin-top: 24px;
 }
-@media (max-width: 750px) {
+@media (max-width: 1200px) {
   .voices__list {
     flex-direction: column;
   }
@@ -809,6 +845,11 @@ img {
   font-size: 1.4rem;
   font-weight: 500;
   color: var(--c-navy-deep);
+}
+
+.locations__select li,
+.locations__stores li {
+  cursor: pointer;
 }
 
 .locations__stores {
