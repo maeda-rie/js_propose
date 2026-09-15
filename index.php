@@ -348,7 +348,7 @@
         const areas = document.querySelectorAll('.locations__select ul li'); // 最初の1個だけ取得(指定したクラスが1つしかない場合はこっち)
         const places = document.querySelectorAll('.locations__stores li'); // 該当する全てを取得
 
-        place.style.display = 'none';
+        places.style.display = 'none';
         areas.forEach(area => {
             area.addEventListener("click", function() {
                 console.log('クリックされた');
