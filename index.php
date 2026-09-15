@@ -322,6 +322,61 @@
                     </label>
                     <button type="button" class="btn btn--solid">この内容で応募する</button>
                 </form>
+                <form class="form" action="#" method="get">
+                    <div class="form__row">
+                        <label class="form__field">
+                            <span>お名前</span>
+                            <input type="text" name="visit_name" placeholder="山田 太郎">
+                        </label>
+                        <label class="form__field">
+                            <span>メールアドレス</span>
+                            <input type="email" name="visit_email" placeholder="example@mail.com">
+                        </label>
+                    </div>
+                    <div class="form__row">
+                        <label class="form__field">
+                            <span>電話番号</span>
+                            <input type="tel" name="visit_tel" placeholder="090-0000-0000">
+                        </label>
+                        <label class="form__field">
+                            <span>希望店舗</span>
+                            <select name="visit_store">
+                                <option>神田院</option>
+                                <option>恵比寿代官山院</option>
+                                <option>町田院</option>
+                                <option>新橋・虎ノ門院</option>
+                                <option>赤坂院</option>
+                                <option>上野院</option>
+                                <option>三軒茶屋院</option>
+                                <option>門前仲町院</option>
+                                <option>五反田院</option>
+                                <option>池袋院</option>
+                                <option>新宿院</option>
+                                <option>人形町院</option>
+                                <option>中野院</option>
+                                <option>北千住院</option>
+                                <option>下北沢院</option>
+                                <option>渋谷院</option>
+                                <option>川崎院</option>
+                                <option>武蔵小杉院</option>
+                                <option>横浜院 （本院）</option>
+                                <option>海老名院</option>
+                                <option>藤沢院</option>
+                                <option>平塚院</option>
+                                <option>川口院</option>
+                                <option>栄院</option>
+                                <option>西梅田院</option>
+                                <option>難波院</option>
+                                <option>札幌院</option>
+                            </select>
+                        </label>
+                    </div>
+                    <label class="form__field">
+                        <span>希望日時</span>
+                        <textarea name="visit_datetime" rows="4" placeholder="第3希望までご記入ください"></textarea>
+                    </label>
+                    <button type="button" class="btn btn--solid">見学を申し込む</button>
+                </form>
             </div>
         </div>
     </section>
@@ -347,9 +402,7 @@
 
         const areas = document.querySelectorAll('.locations__select ul li'); 
         const places = document.querySelectorAll('.locations__stores li');
-        // places.style.display = 'none';
-        // document.querySelectorAll('.locations__stores li').style.display = 'none';
-
+        
         places.forEach(place => {
             place.style.display = 'none';
         });
