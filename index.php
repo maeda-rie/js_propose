@@ -337,7 +337,7 @@
         areas.forEach(button => {
             areas.addEventListener("click", function() {
                 console.log('クリックされた');
-                const target = area.dataset.area;
+                const target = areas.dataset.area;
 
                 places.forEach(place => {
                     if (place.dataset.place === target) {
