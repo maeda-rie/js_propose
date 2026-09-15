@@ -121,7 +121,7 @@ img {
   background: transparent;
   color: var(--c-navy-deep);
   border: 1px solid var(--c-navy);
-  padding: 14px 22px;
+  padding: 1rem 2.2rem;
   font-size: 1.4rem;
   font-weight: 500;
 }
@@ -288,10 +288,11 @@ img {
   // display: flex;
   // align-items: stretch;
   // min-height: 560px;
-  max-width: 1500px;
+  // max-width: 1500px;
+  max-width: 1525px;
   margin-left: auto;
 
-  height: 560px;
+  // height: 560px;
   overflow: hidden;
   // background: var(--c-mist);
 
@@ -304,8 +305,8 @@ img {
 .fv_inner {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
+  // justify-content: flex-end;
+  // align-items: center;
   width: 100%;
   height: 560px;
 
@@ -320,14 +321,9 @@ img {
 }
 
 .fv__copy {
-  // display: flex;
-  // flex-direction: column;
-  // align-items: flex-start;
-  // justify-content: center;
-  // width: 50%;
-  // padding: 56px 32px 56px 50px;
-  width: 50%;
-  padding: 150px 22px 10px;
+  width: 37.5%;
+  padding: 15.6rem 2.2rem 1rem;
+  margin-right: auto;
 
   @include mq(tab) {
     width: 100%;
@@ -340,16 +336,17 @@ img {
 }
 
 .fv__eyebrow {
+  display: inline;
   background: var(--c-red);
   color: var(--c-white);
   border-radius: 100px;
-  padding: 7px 14px;
+  padding: 0.5rem 1.5rem;
   font-size: 1.2rem;
   font-weight: 500;
 }
 
 .fv__title {
-  margin-top: 18px;
+  margin-top: 1.95rem;
   font-size: 3.4rem;
   font-weight: 700;
   line-height: 1.4;
@@ -365,8 +362,7 @@ img {
 }
 
 .fv__lead {
-  margin-top: 18px;
-  margin-bottom: 18px;
+  margin: 2rem 0 1.7rem;
   font-size: 1.5rem;
   line-height: 1.73;
   color: var(--c-muted);
@@ -377,7 +373,8 @@ img {
 }
 
 .fv__photo {
-  width: 50%;
+  // width: 50%;
+  width: calc(1525px - 37.5%);
   // min-height: 560px;
   // background: var(--c-ph-fv);
 
@@ -391,8 +388,21 @@ img {
   }
 }
 
+.fv__photo-inner {
+  aspect-ratio: 1200 / 560;
+  width: auto;
+  height: 560px;
+  overflow: hidden;
+}
+
+.fv__photo-inner img {
+  width: 100%;
+  object-fit: cover;
+  object-position: -120px -110px;
+}
+
 .about {
-  padding: 80px 0 40px;
+  padding: 7.7rem 0 3.6rem;
 
   @include mq(sp) {
     padding: 56px 0 32px;

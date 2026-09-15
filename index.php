@@ -68,6 +68,10 @@
         <div class="l-inner">
             <h2 class="sec-title">私たちについて</h2>
             <p class="sec-lead">治すだけで終わらない。経験を、人生に変える仕事。</p>
+            <div class="day__highlight">
+                <p class="day__highlight-main">1日に担当する患者様は、最大5名。</p>
+                <p class="day__highlight-sub">一人ひとりのお客様と、密にコミュニケーションが取れます。</p>
+            </div>
             <div class="about__photo-cover">
                 <img class="about__photo" src="img/staff_04.jpg" alt="" aria-hidden="true">
             </div>
