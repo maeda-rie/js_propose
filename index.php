@@ -300,22 +300,26 @@
                         </label>
                         <label class="form__field">
                             <span>経験</span>
-                            <select name="exp">
-                                <option>経験者</option>
-                                <option>未経験</option>
-                            </select>
+                            <span class="form__select">
+                                <select name="exp">
+                                    <option>経験者</option>
+                                    <option>未経験</option>
+                                </select>
+                            </span>
                         </label>
                     </div>
                     <label class="form__field">
                         <span>希望勤務地</span>
-                        <select name="area">
-                            <option>東京都</option>
-                            <option>神奈川</option>
-                            <option>埼玉</option>
-                            <option>愛知</option>
-                            <option>大阪</option>
-                            <option>北海道</option>
-                        </select>
+                        <span class="form__select">
+                            <select name="area">
+                                <option>東京都</option>
+                                <option>神奈川</option>
+                                <option>埼玉</option>
+                                <option>愛知</option>
+                                <option>大阪</option>
+                                <option>北海道</option>
+                            </select>
+                        </span>
                     </label>
                     <label class="form__field">
                         <span>ご質問・自己PR</span>
@@ -342,6 +346,7 @@
                         </label>
                         <label class="form__field">
                             <span>希望店舗</span>
+                            <span class="form__select">
                             <select name="visit_store">
                                 <option>神田院</option>
                                 <option>恵比寿代官山院</option>
@@ -371,6 +376,7 @@
                                 <option>難波院</option>
                                 <option>札幌院</option>
                             </select>
+                            </span>
                         </label>
                     </div>
                     <label class="form__field">

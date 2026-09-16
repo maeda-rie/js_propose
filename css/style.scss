@@ -931,7 +931,27 @@ img {
 }
 
 .form select {
-  height: 4.8rem;
+  appearance: none;
+  -webkit-appearance: none;
+  padding-right: 3.6rem;
+}
+
+.form__select {
+  position: relative;
+  display: block;
+}
+
+.form__select::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 1.4rem;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-right: 0.15rem solid var(--c-ink);
+  border-bottom: 0.15rem solid var(--c-ink);
+  transform: translateY(-70%) rotate(45deg);
+  pointer-events: none;
 }
 
 .form textarea {
