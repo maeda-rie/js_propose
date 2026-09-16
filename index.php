@@ -70,7 +70,7 @@
             <p class="sec-lead">治すだけで終わらない。経験を、人生に変える仕事。</p>
             <div class="day__highlight">
                 <p class="day__highlight-main">1日に担当する患者様は、最大5名。</p>
-                <p class="day__highlight-sub">1人ひとりのお客様と、密にコミュニケーションが取れます。</p>
+                <p class="day__highlight-sub">1人ひとりの患者様と密にコミュニケーションを取れます。</p>
             </div>
             <div class="about__photo-cover">
                 <img class="about__photo" src="img/staff_04.jpg" alt="" aria-hidden="true">
@@ -78,18 +78,18 @@
             <div class="about__cards">
                 <article class="card">
                     <p class="card__num">01</p>
-                    <h3 class="card__title">1人ひとりの「治したい」に向き合う</h3><span></span>
-                    <p class="card__text">1日に担当する患者様数の制限あるから患者様の悩みを調べ、狙いを定めた施術ができます。</p>
+                    <h3 class="card__title">1人ひとりの「治したい」に向き合う</h3>
+                    <p class="card__text">1日に担当する患者様数の制限があるから患者様のお悩みを調べ、<strong>狙いを定めた施術</strong>ができます。</p>
                 </article>
                 <article class="card">
                     <p class="card__num">02</p>
                     <h3 class="card__title">経験を、長く活かせる正社員</h3>
-                    <p class="card__text">収入の波や集客の負担を一人で抱えない。技術を磨きながら、院長や教育など次のキャリアも選べます。</p>
+                    <p class="card__text"><strong>収入の波や集客の負担を一人で抱えない。</strong>技術を磨きながら、院長や教育など次のキャリアも選べます。</p>
                 </article>
                 <article class="card">
                     <p class="card__num">03</p>
-                    <h3 class="card__title">調べる時間があるから、結果が変わる</h3>
-                    <p class="card__text">カルテ確認と事後リサーチの時間が残る。他院で良くならなかった症状にも、プロとして向き合えます。</p>
+                    <h3 class="card__title">症状の原因を追求するから、変えられる</h3>
+                    <p class="card__text">患者様のカルテを確認し、症状の原因を追求する時間を取れるから、<strong>他院で良くならなかった症状も変える</strong>事ができます。</p>
                 </article>
             </div>
         </div>
@@ -110,11 +110,11 @@
                         <div>
                             <p class="voice__tag">経験者入社</p>
                             <p class="voice__name">A・Sさん</p>
-                            <p class="voice__role">施術者</p>
+                            <p class="voice__role">施術家</p>
                         </div>
                     </div>
                     <h3 class="voice__title">「治したい」に向き合える環境</h3>
-                    <p class="voice__text">前職は10時から19時まで、ノンストップ施術。患者様とのカウンセリングをしっかりとできない事もあり、罪悪感がありました。今は予約にゆとりがあり、カルテ確認や事後リサーチの時間が取れます。他院で良くならなかった肩の痛みも、原因を調べる余裕があったからこそ改善できました。時間をかけて向き合えるから、プロとしてベストな施術ができると感じています。</p>
+                    <p class="voice__text"><strong>前職は10時から19時まで、ノンストップ施術。</strong>患者様とのカウンセリングをしっかりとできない事もあり、罪悪感がありました。<strong>今は予約にゆとりがあり、カルテ確認や事後リサーチの時間が取れます。</strong>他院で良くならなかった痛みも、原因を調べる余裕があったからこそ改善できました。時間をかけて向き合えるから、プロとしてベストな施術ができると感じています。</p>
                 </article>
                 <article class="voice">
                     <div class="voice__meta">
@@ -130,7 +130,7 @@
                         </div>
                     </div>
                     <h3 class="voice__title">未経験からでも、成長次第で2〜3年で院長に。</h3>
-                    <p class="voice__text">学ぶ気持ちと向上心、挑戦する気持ちがあれば活躍できる職場です。成長次第では2〜3年で院長を任されることもあり、自分もその一人。評価は年功序列ではなく成果主義なので、やりがいがあります。人として目線も考え方も変わりました。</p>
+                    <p class="voice__text">学ぶ気持ちと向上心、挑戦する気持ちがあれば活躍できる職場です。成長次第では2〜3年で院長を任されることもあり、自分もその一人。<strong>評価は年功序列ではなく成果主義</strong>なので、やりがいがあります。人として目線も考え方も変わりました。</p>
                 </article>
             </div>
         </div>
@@ -144,14 +144,14 @@
                     <p class="day__time">10:45</p>
                     <div>
                         <p class="day__label">出社</p>
-                        <p class="day__desc">清掃・予約確認・朝礼。一日の準備を整えます。</p>
+                        <p class="day__desc">清掃・予約確認・朝礼。</p>
                     </div>
                 </li>
                 <li class="day__step">
                     <p class="day__time">11:00</p>
                     <div>
                         <p class="day__label">午前診療</p>
-                        <p class="day__desc">カウンセリングと施術。1人ひとりの状態を見極めて向き合います。</p>
+                        <p class="day__desc">カウンセリングと施術。お身体の状態を見極め、患者様の今の症状に合った施術を行います。</p>
                     </div>
                 </li>
                 <li class="day__step">
@@ -165,7 +165,7 @@
                     <p class="day__time">16:30</p>
                     <div>
                         <p class="day__label">午後診療</p>
-                        <p class="day__desc">最終受付20:00。予約の合間にカルテ確認や調べる時間も取れます。</p>
+                        <p class="day__desc">予約の合間にカルテの確認や、症状の原因を調べる時間も取れます。</p>
                     </div>
                 </li>
                 <li class="day__step">

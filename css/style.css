@@ -505,6 +505,11 @@ img {
   color: var(--c-muted);
 }
 
+.card__text strong,
+.voice__text strong {
+  font-weight: 700;
+}
+
 .voices {
   padding: 2.4rem 0 8rem;
 }
