@@ -110,7 +110,7 @@
                         <div>
                             <p class="voice__tag">経験者入社</p>
                             <p class="voice__name">A・Sさん</p>
-                            <p class="voice__role">施術家</p>
+                            <p class="voice__role">施術者</p>
                         </div>
                     </div>
                     <h3 class="voice__title">「治したい」に向き合える環境</h3>
