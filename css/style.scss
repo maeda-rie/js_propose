@@ -930,9 +930,14 @@ img {
   height: 4.8rem;
 }
 
+.form select {
+  height: 4.8rem;
+}
+
 .form textarea {
   min-height: 11rem;
   resize: vertical;
+  height: 30rem;
 }
 
 .form .btn {
