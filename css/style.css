@@ -667,7 +667,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  margin-top: 1rem;
+  margin-top: 2.6rem;
 }
 
 .day__step {
@@ -761,7 +761,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 0.15rem;
-  margin-top: 1.6rem;
+  margin-top: 1rem;
 }
 
 .salary__rows div {
