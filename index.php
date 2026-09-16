@@ -4,11 +4,11 @@
 <head>
     <meta charset="utf-8">
     <title>J’sメディカル整体院｜採用サイト</title>
-    <meta name="description" content="一人ひとりの「治したい」に、向き合える環境です。J’sメディカル整体院の採用情報。">
+    <meta name="description" content="1人ひとりの「治したい」に、向き合える環境です。J’sメディカル整体院の採用情報。">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://testup.birth-htrib.co.jp/maeda/js_demo/">
     <meta property="og:title" content="J’sメディカル整体院｜採用サイト">
-    <meta property="og:description" content="一人ひとりの「治したい」に、向き合える環境です。">
+    <meta property="og:description" content="1人ひとりの「治したい」に、向き合える環境です。">
     <meta property="og:site_name" content="J’sメディカル整体院｜採用サイト">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="canonical" href="https://testup.birth-htrib.co.jp/maeda/js_demo/">
@@ -53,7 +53,7 @@
             <div class="fv__copy">
                 <p class="fv__eyebrow">経験者の整体師へ</p>
                 <h1 class="fv__title">関わった人の人生に<br>変化をもたらす施術をしたい。</h1>
-                <p class="fv__lead">一人ひとりの「治したい」に、向き合える環境です。</p>
+                <p class="fv__lead">1人ひとりの「治したい」に、向き合える環境です。</p>
                 <a href="#day" class="btn btn--ghost">1日の流れを見る</a>
             </div>
             <div class="fv__photo">
@@ -70,7 +70,7 @@
             <p class="sec-lead">治すだけで終わらない。経験を、人生に変える仕事。</p>
             <div class="day__highlight">
                 <p class="day__highlight-main">1日に担当する患者様は、最大5名。</p>
-                <p class="day__highlight-sub">一人ひとりのお客様と、密にコミュニケーションが取れます。</p>
+                <p class="day__highlight-sub">1人ひとりのお客様と、密にコミュニケーションが取れます。</p>
             </div>
             <div class="about__photo-cover">
                 <img class="about__photo" src="img/staff_04.jpg" alt="" aria-hidden="true">
@@ -78,7 +78,7 @@
             <div class="about__cards">
                 <article class="card">
                     <p class="card__num">01</p>
-                    <h3 class="card__title">一人ひとりの「治したい」に向き合う</h3>
+                    <h3 class="card__title">1人ひとりの「治したい」に向き合う</h3><span></span>
                     <p class="card__text">1日に担当する患者様数の制限あるから患者様の悩みを調べ、狙いを定めた施術ができます。</p>
                 </article>
                 <article class="card">
@@ -151,7 +151,7 @@
                     <p class="day__time">11:00</p>
                     <div>
                         <p class="day__label">午前診療</p>
-                        <p class="day__desc">カウンセリングと施術。一人ひとりの状態を見極めて向き合います。</p>
+                        <p class="day__desc">カウンセリングと施術。1人ひとりの状態を見極めて向き合います。</p>
                     </div>
                 </li>
                 <li class="day__step">
